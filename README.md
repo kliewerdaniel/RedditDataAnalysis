@@ -7,8 +7,8 @@ This project is designed to fetch and analyze data from Reddit. It uses various 
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/kliewerdaniel/RedditDataAnalysis.git
+    cd RedditDataAnalysis
     ```
 
 2. Create and activate a virtual environment:
