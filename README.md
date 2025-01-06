@@ -26,6 +26,30 @@ This project is designed to fetch and analyze data from Reddit. It uses various 
 
 1. Configure the environment variables in the [.env](http://_vscodecontentref_/3) file.
 
+Included is a .sampledotenv for an empty version you can fill in with these instructions:
+
+To interact with Reddit’s API, you’ll need to create an application within your Reddit account.
+
+
+Navigate to https://www.reddit.com/prefs/apps.
+Create a New Application:
+Click on “Create App” or “Create Another App”.
+Fill out the form:
+
+About URL: (Leave blank or provide a relevant URL)
+Redirect URI: http://localhost:8080 (Required but not used for scripts)
+
+Click “Create App”.
+
+Retrieve Credentials:
+
+Client ID: Displayed under the app name.
+
+Client Secret: Displayed alongside the Client ID.
+
+User Agent: A descriptive string, e.g., python:RedditBlogGenerator:1.0 (by /u/yourusername)
+
+
 2. Run the main script:
     ```sh
     python main.py
